@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diyoutdoorblinds.com.au/sitemap.xml
