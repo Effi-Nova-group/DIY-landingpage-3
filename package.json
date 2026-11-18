@@ -1,8 +1,8 @@
 {
   "name": "diy-outdoor-blinds-landing",
   "private": true,
-  "description": "Static landing page. HTML is pre-built in diyoutdoorblinds.com.au/ (regenerate locally with python3 _build/generate.py).",
+  "description": "Static landing page, pre-built in diyoutdoorblinds.com.au/. The build step publishes it to the repo root and to dist/ so the host finds index.html whatever output directory it is set to.",
   "scripts": {
-    "build": "echo 'Static site is pre-built in diyoutdoorblinds.com.au/ - nothing to build.'"
+    "build": "rm -rf dist && cp -R diyoutdoorblinds.com.au dist && cp -R diyoutdoorblinds.com.au/. ."
   }
 }
